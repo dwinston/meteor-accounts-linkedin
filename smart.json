@@ -1,11 +1,14 @@
 {
   "name": "accounts-linkedin",
   "description": "Login service for LinkedIn",
-  "homepage": "https://github.com/yefim/meteor-accounts-linkedin",
-  "author": "Geoffrey Vedernikoff (http://twitter.com/yefim)",
-  "version": "0.0.6",
-  "git": "https://github.com/yefim/meteor-accounts-linkedin.git",
+  "homepage": "https://github.com/dwinston/meteor-accounts-linkedin",
+  "author": "Donny Winston",
+  "version": "0.0.1",
+  "git": "https://github.com/dwinston/meteor-accounts-linkedin.git",
   "packages": {
-    "linkedin": "0.0.2"
+    "linkedin": {
+      "git": "https://github.com/dwinston/meteor-linkedin.git",
+      "branch": "dev"
+    }
   }
 }
